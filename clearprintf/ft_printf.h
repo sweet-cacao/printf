@@ -15,5 +15,7 @@ int     is_csp(char c);
 int     is_diouxX(char c);
 int     first_flag(char c);
 int     is_number(char c);
+int     count_length(int n);
+void    format_print_di(int arg, char *str, int start, int end);
 
 #endif

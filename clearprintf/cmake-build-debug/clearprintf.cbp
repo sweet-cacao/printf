@@ -8,35 +8,32 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug"/>
+				<Option working_dir="/home/sweet-cacao/printf/clearprintf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug"/>
+				<Option working_dir="/home/sweet-cacao/printf/clearprintf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clearprintf">
-				<Option output="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/clearprintf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug"/>
+				<Option output="/home/sweet-cacao/printf/clearprintf/cmake-build-debug/clearprintf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sweet-cacao/printf/clearprintf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
@@ -44,22 +41,19 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clearprintf"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clearprintf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clearprintf/fast">
-				<Option output="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/clearprintf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug"/>
+				<Option output="/home/sweet-cacao/printf/clearprintf/cmake-build-debug/clearprintf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sweet-cacao/printf/clearprintf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
@@ -67,45 +61,48 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clearprintf/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clearprintf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug"/>
+				<Option working_dir="/home/sweet-cacao/printf/clearprintf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sweet-cacao/printf/clearprintf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/check_format.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/check_format.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/format_print_di.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/count_length.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/ft_printf.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/format_print_di.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/ft_printf.h">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/ft_printf.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/libft.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/ft_printf.h">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/main.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/libft.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/print_pointer.c">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/main.c">
 			<Option target="clearprintf"/>
 		</Unit>
-		<Unit filename="/home/sweet-cacao/CLionProjects/clearprintf/CMakeLists.txt">
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/print_pointer.c">
+			<Option target="clearprintf"/>
+		</Unit>
+		<Unit filename="/home/sweet-cacao/printf/clearprintf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

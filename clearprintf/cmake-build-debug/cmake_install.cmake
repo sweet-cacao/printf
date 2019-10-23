@@ -1,4 +1,4 @@
-# Install script for directory: /home/sweet-cacao/CLionProjects/clearprintf
+# Install script for directory: /home/sweet-cacao/printf/clearprintf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sweet-cacao/printf/clearprintf/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

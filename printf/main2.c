@@ -48,10 +48,10 @@ void    print_pointer(const void *addr)
 }
 int     main()
 {
-    int a = 6875765;
+    int a = 68;
 
     void *k = &a;
 
-    printf("number = % -18d, pointer = %p\n", a, &a);
+    printf("number = %+-013d, pointer = %p\n", a, &a);
     print_pointer(k);
 }

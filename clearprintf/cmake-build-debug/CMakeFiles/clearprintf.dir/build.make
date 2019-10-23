@@ -43,10 +43,10 @@ RM = /home/sweet-cacao/Загрузки/clion-2019.2.4/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sweet-cacao/CLionProjects/clearprintf
+CMAKE_SOURCE_DIR = /home/sweet-cacao/printf/clearprintf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sweet-cacao/printf/clearprintf/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/clearprintf.dir/depend.make
@@ -59,81 +59,94 @@ include CMakeFiles/clearprintf.dir/flags.make
 
 CMakeFiles/clearprintf.dir/main.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clearprintf.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/main.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/clearprintf.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/main.c.o   -c /home/sweet-cacao/printf/clearprintf/main.c
 
 CMakeFiles/clearprintf.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/main.c > CMakeFiles/clearprintf.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/main.c > CMakeFiles/clearprintf.dir/main.c.i
 
 CMakeFiles/clearprintf.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/main.c -o CMakeFiles/clearprintf.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/main.c -o CMakeFiles/clearprintf.dir/main.c.s
 
 CMakeFiles/clearprintf.dir/ft_printf.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/ft_printf.c.o: ../ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clearprintf.dir/ft_printf.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/ft_printf.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/clearprintf.dir/ft_printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/ft_printf.c.o   -c /home/sweet-cacao/printf/clearprintf/ft_printf.c
 
 CMakeFiles/clearprintf.dir/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/ft_printf.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/ft_printf.c > CMakeFiles/clearprintf.dir/ft_printf.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/ft_printf.c > CMakeFiles/clearprintf.dir/ft_printf.c.i
 
 CMakeFiles/clearprintf.dir/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/ft_printf.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/ft_printf.c -o CMakeFiles/clearprintf.dir/ft_printf.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/ft_printf.c -o CMakeFiles/clearprintf.dir/ft_printf.c.s
 
 CMakeFiles/clearprintf.dir/print_pointer.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/print_pointer.c.o: ../print_pointer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clearprintf.dir/print_pointer.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/print_pointer.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/print_pointer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/clearprintf.dir/print_pointer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/print_pointer.c.o   -c /home/sweet-cacao/printf/clearprintf/print_pointer.c
 
 CMakeFiles/clearprintf.dir/print_pointer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/print_pointer.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/print_pointer.c > CMakeFiles/clearprintf.dir/print_pointer.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/print_pointer.c > CMakeFiles/clearprintf.dir/print_pointer.c.i
 
 CMakeFiles/clearprintf.dir/print_pointer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/print_pointer.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/print_pointer.c -o CMakeFiles/clearprintf.dir/print_pointer.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/print_pointer.c -o CMakeFiles/clearprintf.dir/print_pointer.c.s
 
 CMakeFiles/clearprintf.dir/libft.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/libft.c.o: ../libft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clearprintf.dir/libft.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/libft.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/libft.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/clearprintf.dir/libft.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/libft.c.o   -c /home/sweet-cacao/printf/clearprintf/libft.c
 
 CMakeFiles/clearprintf.dir/libft.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/libft.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/libft.c > CMakeFiles/clearprintf.dir/libft.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/libft.c > CMakeFiles/clearprintf.dir/libft.c.i
 
 CMakeFiles/clearprintf.dir/libft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/libft.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/libft.c -o CMakeFiles/clearprintf.dir/libft.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/libft.c -o CMakeFiles/clearprintf.dir/libft.c.s
 
 CMakeFiles/clearprintf.dir/check_format.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/check_format.c.o: ../check_format.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clearprintf.dir/check_format.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/check_format.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/check_format.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/clearprintf.dir/check_format.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/check_format.c.o   -c /home/sweet-cacao/printf/clearprintf/check_format.c
 
 CMakeFiles/clearprintf.dir/check_format.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/check_format.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/check_format.c > CMakeFiles/clearprintf.dir/check_format.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/check_format.c > CMakeFiles/clearprintf.dir/check_format.c.i
 
 CMakeFiles/clearprintf.dir/check_format.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/check_format.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/check_format.c -o CMakeFiles/clearprintf.dir/check_format.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/check_format.c -o CMakeFiles/clearprintf.dir/check_format.c.s
 
 CMakeFiles/clearprintf.dir/format_print_di.c.o: CMakeFiles/clearprintf.dir/flags.make
 CMakeFiles/clearprintf.dir/format_print_di.c.o: ../format_print_di.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clearprintf.dir/format_print_di.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/format_print_di.c.o   -c /home/sweet-cacao/CLionProjects/clearprintf/format_print_di.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/clearprintf.dir/format_print_di.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/format_print_di.c.o   -c /home/sweet-cacao/printf/clearprintf/format_print_di.c
 
 CMakeFiles/clearprintf.dir/format_print_di.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/format_print_di.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/CLionProjects/clearprintf/format_print_di.c > CMakeFiles/clearprintf.dir/format_print_di.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/format_print_di.c > CMakeFiles/clearprintf.dir/format_print_di.c.i
 
 CMakeFiles/clearprintf.dir/format_print_di.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/format_print_di.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/CLionProjects/clearprintf/format_print_di.c -o CMakeFiles/clearprintf.dir/format_print_di.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/format_print_di.c -o CMakeFiles/clearprintf.dir/format_print_di.c.s
+
+CMakeFiles/clearprintf.dir/count_length.c.o: CMakeFiles/clearprintf.dir/flags.make
+CMakeFiles/clearprintf.dir/count_length.c.o: ../count_length.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/clearprintf.dir/count_length.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/count_length.c.o   -c /home/sweet-cacao/printf/clearprintf/count_length.c
+
+CMakeFiles/clearprintf.dir/count_length.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/count_length.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sweet-cacao/printf/clearprintf/count_length.c > CMakeFiles/clearprintf.dir/count_length.c.i
+
+CMakeFiles/clearprintf.dir/count_length.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/count_length.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sweet-cacao/printf/clearprintf/count_length.c -o CMakeFiles/clearprintf.dir/count_length.c.s
 
 # Object files for target clearprintf
 clearprintf_OBJECTS = \
@@ -142,7 +155,8 @@ clearprintf_OBJECTS = \
 "CMakeFiles/clearprintf.dir/print_pointer.c.o" \
 "CMakeFiles/clearprintf.dir/libft.c.o" \
 "CMakeFiles/clearprintf.dir/check_format.c.o" \
-"CMakeFiles/clearprintf.dir/format_print_di.c.o"
+"CMakeFiles/clearprintf.dir/format_print_di.c.o" \
+"CMakeFiles/clearprintf.dir/count_length.c.o"
 
 # External object files for target clearprintf
 clearprintf_EXTERNAL_OBJECTS =
@@ -153,9 +167,10 @@ clearprintf: CMakeFiles/clearprintf.dir/print_pointer.c.o
 clearprintf: CMakeFiles/clearprintf.dir/libft.c.o
 clearprintf: CMakeFiles/clearprintf.dir/check_format.c.o
 clearprintf: CMakeFiles/clearprintf.dir/format_print_di.c.o
+clearprintf: CMakeFiles/clearprintf.dir/count_length.c.o
 clearprintf: CMakeFiles/clearprintf.dir/build.make
 clearprintf: CMakeFiles/clearprintf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable clearprintf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable clearprintf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clearprintf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +183,6 @@ CMakeFiles/clearprintf.dir/clean:
 .PHONY : CMakeFiles/clearprintf.dir/clean
 
 CMakeFiles/clearprintf.dir/depend:
-	cd /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sweet-cacao/CLionProjects/clearprintf /home/sweet-cacao/CLionProjects/clearprintf /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sweet-cacao/printf/clearprintf/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sweet-cacao/printf/clearprintf /home/sweet-cacao/printf/clearprintf /home/sweet-cacao/printf/clearprintf/cmake-build-debug /home/sweet-cacao/printf/clearprintf/cmake-build-debug /home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clearprintf.dir/depend
 

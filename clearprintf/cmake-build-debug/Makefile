@@ -48,10 +48,10 @@ RM = /home/sweet-cacao/Загрузки/clion-2019.2.4/bin/cmake/linux/bin/cmake
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sweet-cacao/CLionProjects/clearprintf
+CMAKE_SOURCE_DIR = /home/sweet-cacao/printf/clearprintf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sweet-cacao/printf/clearprintf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles /home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sweet-cacao/CLionProjects/clearprintf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sweet-cacao/printf/clearprintf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ check_format.s: check_format.c.s
 check_format.c.s:
 	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/check_format.c.s
 .PHONY : check_format.c.s
+
+count_length.o: count_length.c.o
+
+.PHONY : count_length.o
+
+# target to build an object file
+count_length.c.o:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/count_length.c.o
+.PHONY : count_length.c.o
+
+count_length.i: count_length.c.i
+
+.PHONY : count_length.i
+
+# target to preprocess a source file
+count_length.c.i:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/count_length.c.i
+.PHONY : count_length.c.i
+
+count_length.s: count_length.c.s
+
+.PHONY : count_length.s
+
+# target to generate assembly for a file
+count_length.c.s:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/count_length.c.s
+.PHONY : count_length.c.s
 
 format_print_di.o: format_print_di.c.o
 
@@ -297,6 +324,9 @@ help:
 	@echo "... check_format.o"
 	@echo "... check_format.i"
 	@echo "... check_format.s"
+	@echo "... count_length.o"
+	@echo "... count_length.i"
+	@echo "... count_length.s"
 	@echo "... format_print_di.o"
 	@echo "... format_print_di.i"
 	@echo "... format_print_di.s"

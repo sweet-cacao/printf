@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clearprintf.dir/check_format.c.o"
+  "CMakeFiles/clearprintf.dir/count_length.c.o"
   "CMakeFiles/clearprintf.dir/format_print_di.c.o"
   "CMakeFiles/clearprintf.dir/ft_printf.c.o"
   "CMakeFiles/clearprintf.dir/libft.c.o"
