@@ -10,4 +10,5 @@ int     count_length(int n)
         n = n / 10;
         res++;
     }
+    return(res);
 }

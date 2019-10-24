@@ -18,4 +18,20 @@ int     is_number(char c);
 int     count_length(int n);
 void    format_print_di(int arg, char *str, int start, int end);
 
+
+typedef struct s_list t_list;
+
+struct s_list
+{
+	int zero;
+	int hash;
+	int min;
+	int plus;
+	int space;
+	int width;
+	int precision;
+};
+
+t_list	zero_struct();
+
 #endif

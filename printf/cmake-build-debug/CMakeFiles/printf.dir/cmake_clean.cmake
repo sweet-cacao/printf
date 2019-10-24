@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/printf.dir/main.c.o"
   "CMakeFiles/printf.dir/main2.c.o"
-  "printf"
   "printf.pdb"
+  "printf"
 )
 
 # Per-language clean rules from dependency scanning.

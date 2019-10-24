@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sweet-cacao/printf/printf/main.c" "/home/sweet-cacao/printf/printf/cmake-build-debug/CMakeFiles/printf.dir/main.c.o"
-  "/home/sweet-cacao/printf/printf/main2.c" "/home/sweet-cacao/printf/printf/cmake-build-debug/CMakeFiles/printf.dir/main2.c.o"
+  "/Users/gstarvin/clearprintf/printf/main.c" "/Users/gstarvin/clearprintf/printf/cmake-build-debug/CMakeFiles/printf.dir/main.c.o"
+  "/Users/gstarvin/clearprintf/printf/main2.c" "/Users/gstarvin/clearprintf/printf/cmake-build-debug/CMakeFiles/printf.dir/main2.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

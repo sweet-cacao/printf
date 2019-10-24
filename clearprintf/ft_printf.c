@@ -25,6 +25,8 @@ void	ft_printf(char *format, ...)
 
         if (walk[end] == 'd' || walk[end] == 'i')
             format_print_di((va_arg(ap, int)), walk, i, end);
+ //       if (walk[end] == 'f')
+//        	format_print_f((va_arg(ap, float)), walk, i, end);
 /*        else if (*walk == 'c')
             format_print_char((char)(va_arg(ap, unsigned char)), walk, i, end);
         else if (*walk == 's')
