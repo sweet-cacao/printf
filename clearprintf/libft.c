@@ -27,3 +27,16 @@ void	ft_putnbr(int n)
         ft_putnbr(n / 10);
     ft_putchar(n % 10 + 48);
 }
+
+size_t		ft_strlen(const char *str)
+{
+    size_t sum;
+
+    sum = 0;
+    while (*str != '\0')
+    {
+        sum++;
+        str++;
+    }
+    return (sum);
+}

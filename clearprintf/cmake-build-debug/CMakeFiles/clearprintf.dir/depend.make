@@ -7,8 +7,14 @@ CMakeFiles/clearprintf.dir/check_format.c.o: ../ft_printf.h
 CMakeFiles/clearprintf.dir/count_length.c.o: ../count_length.c
 CMakeFiles/clearprintf.dir/count_length.c.o: ../ft_printf.h
 
+CMakeFiles/clearprintf.dir/format_print_c.c.o: ../format_print_c.c
+CMakeFiles/clearprintf.dir/format_print_c.c.o: ../ft_printf.h
+
 CMakeFiles/clearprintf.dir/format_print_di.c.o: ../format_print_di.c
 CMakeFiles/clearprintf.dir/format_print_di.c.o: ../ft_printf.h
+
+CMakeFiles/clearprintf.dir/format_print_str.c.o: ../format_print_str.c
+CMakeFiles/clearprintf.dir/format_print_str.c.o: ../ft_printf.h
 
 CMakeFiles/clearprintf.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/clearprintf.dir/ft_printf.c.o: ../ft_printf.h

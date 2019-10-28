@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/gstarvin/clearprintf/clearprintf/check_format.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/check_format.c.o"
   "/Users/gstarvin/clearprintf/clearprintf/count_length.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/count_length.c.o"
+  "/Users/gstarvin/clearprintf/clearprintf/format_print_c.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_c.c.o"
   "/Users/gstarvin/clearprintf/clearprintf/format_print_di.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_di.c.o"
+  "/Users/gstarvin/clearprintf/clearprintf/format_print_str.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_str.c.o"
   "/Users/gstarvin/clearprintf/clearprintf/ft_printf.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/ft_printf.c.o"
   "/Users/gstarvin/clearprintf/clearprintf/libft.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/libft.c.o"
   "/Users/gstarvin/clearprintf/clearprintf/main.c" "/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir/main.c.o"

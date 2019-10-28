@@ -4,6 +4,42 @@
 //нужно еще дописать пробел до числа
 //дописать, что делать с нулём
 
+t_list  fill_struct(t_list a, int *i, char *str)
+{
+    while (first_flag(str[*i]))
+    {
+        if (str[*i] == '-')
+            a.min = 1;
+        if (str[*i] == '#')
+            a.hash = 1;
+        if (str[*i] == '+')
+            a.plus = 1;
+        if (str[*i] == '0')
+            a.zero = 1;
+        if (str[*i] == ' ')
+            a.space = 1;
+        (*i)++;
+    }
+    if (a.min == 1)
+        a.zero = 0;
+    if (a.plus == 1 || a.min == 1)
+        a.space = 0;
+    if (is_number(str[*i]))
+    {
+        a.width = atoi(&str[*i]);
+        while(is_number(str[*i]) || str[*i] == '0')
+            (*i)++;
+    }
+    if (str[*i] == '.') //только для float
+    {
+        (*i)++;
+        a.precision = atoi(&str[*i]);
+        while(is_number(str[*i]) || str[*i] == '0')
+            (*i)++;
+    }
+    return (a);
+}
+
 t_list	zero_struct()
 {
 	t_list a;
@@ -15,96 +51,66 @@ t_list	zero_struct()
 	a.width = 0;
 	return (a);
 }
-
-void    format_print_di(int arg, char *str, int start, int end)
+void    format_width(t_list a, int len_arg)
 {
-	t_list a = zero_struct();
-    int i = start;
-    int number_length;
-    while (first_flag(str[i]))
-    {
-        if (str[i] == '-')
-            a.min = 1;
-        if (str[i] == '#')
-            a.hash = 1;
-        if (str[i] == '+')
-            a.plus = 1;
-        if (str[i] == '0')
-            a.zero = 1;
-        if (str[i] == ' ')
-            a.space = 1;
-        i++;
-    }
-    if (a.min == 1)
-        a.zero = 0;
-    if (a.plus == 1 || a.min == 1)
-        a.space = 0;
+    int i;
 
-    if (is_number(str[i]))
+    i = 0;
+    if (a.width > len_arg)
     {
-        a.width = atoi(&str[i]);
-        while(is_number(str[i]) || str[i] == '0')
+        i = 0;
+        while (i < (a.width - len_arg))
+        {
+            if (a.zero == 1)
+                ft_putchar('0');
+            else
+                ft_putchar(' ');
             i++;
+        }
     }
-    if (str[i] == '.') //только для float
+}
+
+void    format_choose_sign(int arg, int *len_arg, t_list a)
+{
+    if (arg < 0)
     {
-        i++;
-        a.precision = atoi(&str[i]);
-        while(is_number(str[i]) || str[i] == '0')
-            i++;
+        ft_putchar('-');
+        (*len_arg)++;
     }
+    if (arg > 0 && a.plus == 1)
+    {
+        ft_putchar('+');
+        (*len_arg)++;
+    }
+}
+
+int    format_print_di(int arg, char *str, int start, int end)
+{
+	t_list a;
+    int i = start;
     int len_arg;
+
+    a = zero_struct();
+    a = fill_struct(a, &i, str);
     if (is_diouxX(str[i]))
     {
         len_arg = count_length(arg);
         if (a.min == 1)
         {
-            if (arg < 0)
-            {
-                ft_putchar('-');
-                len_arg++;
-            }
-            if (arg > 0 && a.plus == 1)
-            {
-                ft_putchar('+');
-                len_arg++;
-            }
+            format_choose_sign(arg, &len_arg, a);
             ft_putnbr(arg);
-            if (a.width > len_arg)
-            {
-                i = 0;
-                while (i < (a.width - len_arg))
-                {
-                    if (a.zero == 1)
-                        ft_putchar('0');
-                    else
-                        ft_putchar(' ');
-                    i++;
-                }
-            }
+            format_width(a, len_arg);
         }
         else
         {
-        //    len_arg++;
             i = 0;
-            if (a.width > len_arg)
-            {
-                if (a.plus == 1)
-                    len_arg++;
-                while (i < (a.width - len_arg))
-                {
-                    if (a.zero == 1)
-                        ft_putchar('0');
-                    else
-                        ft_putchar(' ');
-                    i++;
-                }
-            }
-            if (arg < 0)
-                ft_putchar('-');
-            if (arg > 0 && a.plus == 1)
-                ft_putchar('+');
+            if (a.plus == 1)
+                len_arg++;
+            format_width(a, len_arg);
+            format_choose_sign(arg, &len_arg, a);
             ft_putnbr(arg);
         }
+        return (1);
     }
+    return (0);
 }

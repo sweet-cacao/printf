@@ -22,13 +22,13 @@ void	ft_printf(char *format, ...)
         end = i;
         while ((!(is_diouxX(walk[end]))) && (!(is_csp(walk[end]))) && walk[end] != 'f')
             end++;
-
         if (walk[end] == 'd' || walk[end] == 'i')
             format_print_di((va_arg(ap, int)), walk, i, end);
+        if (walk[end] == 'c')
+            format_print_c((char)(va_arg(ap, unsigned char)), walk, i, end);
  //       if (walk[end] == 'f')
 //        	format_print_f((va_arg(ap, float)), walk, i, end);
-/*        else if (*walk == 'c')
-            format_print_char((char)(va_arg(ap, unsigned char)), walk, i, end);
+/*
         else if (*walk == 's')
             format_print_str((va_arg(ap, char *)), walk, i, end);
         else if (*walk == 'p')

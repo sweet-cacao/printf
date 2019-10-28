@@ -177,6 +177,33 @@ count_length.c.s:
 	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/count_length.c.s
 .PHONY : count_length.c.s
 
+format_print_c.o: format_print_c.c.o
+
+.PHONY : format_print_c.o
+
+# target to build an object file
+format_print_c.c.o:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_c.c.o
+.PHONY : format_print_c.c.o
+
+format_print_c.i: format_print_c.c.i
+
+.PHONY : format_print_c.i
+
+# target to preprocess a source file
+format_print_c.c.i:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_c.c.i
+.PHONY : format_print_c.c.i
+
+format_print_c.s: format_print_c.c.s
+
+.PHONY : format_print_c.s
+
+# target to generate assembly for a file
+format_print_c.c.s:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_c.c.s
+.PHONY : format_print_c.c.s
+
 format_print_di.o: format_print_di.c.o
 
 .PHONY : format_print_di.o
@@ -203,6 +230,33 @@ format_print_di.s: format_print_di.c.s
 format_print_di.c.s:
 	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_di.c.s
 .PHONY : format_print_di.c.s
+
+format_print_str.o: format_print_str.c.o
+
+.PHONY : format_print_str.o
+
+# target to build an object file
+format_print_str.c.o:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_str.c.o
+.PHONY : format_print_str.c.o
+
+format_print_str.i: format_print_str.c.i
+
+.PHONY : format_print_str.i
+
+# target to preprocess a source file
+format_print_str.c.i:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_str.c.i
+.PHONY : format_print_str.c.i
+
+format_print_str.s: format_print_str.c.s
+
+.PHONY : format_print_str.s
+
+# target to generate assembly for a file
+format_print_str.c.s:
+	$(MAKE) -f CMakeFiles/clearprintf.dir/build.make CMakeFiles/clearprintf.dir/format_print_str.c.s
+.PHONY : format_print_str.c.s
 
 ft_printf.o: ft_printf.c.o
 
@@ -327,9 +381,15 @@ help:
 	@echo "... count_length.o"
 	@echo "... count_length.i"
 	@echo "... count_length.s"
+	@echo "... format_print_c.o"
+	@echo "... format_print_c.i"
+	@echo "... format_print_c.s"
 	@echo "... format_print_di.o"
 	@echo "... format_print_di.i"
 	@echo "... format_print_di.s"
+	@echo "... format_print_str.o"
+	@echo "... format_print_str.i"
+	@echo "... format_print_str.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

@@ -86,7 +86,13 @@
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/count_length.c">
 			<Option target="clearprintf"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_c.c">
+			<Option target="clearprintf"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_di.c">
+			<Option target="clearprintf"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_str.c">
 			<Option target="clearprintf"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/ft_printf.c">

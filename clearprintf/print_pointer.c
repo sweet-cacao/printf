@@ -29,7 +29,7 @@ void    print_pointer(const void *addr)
     	i--;
 	}
 }
-
+/*
 int main() {
 	void *str = "lay";
 	int i = 8;
@@ -60,3 +60,4 @@ int main() {
 
 	//ft_putstr(&k);
 }
+*/

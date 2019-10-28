@@ -148,6 +148,32 @@ CMakeFiles/clearprintf.dir/count_length.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/count_length.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/clearprintf/clearprintf/count_length.c -o CMakeFiles/clearprintf.dir/count_length.c.s
 
+CMakeFiles/clearprintf.dir/format_print_c.c.o: CMakeFiles/clearprintf.dir/flags.make
+CMakeFiles/clearprintf.dir/format_print_c.c.o: ../format_print_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/clearprintf.dir/format_print_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/format_print_c.c.o   -c /Users/gstarvin/clearprintf/clearprintf/format_print_c.c
+
+CMakeFiles/clearprintf.dir/format_print_c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/format_print_c.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/clearprintf/clearprintf/format_print_c.c > CMakeFiles/clearprintf.dir/format_print_c.c.i
+
+CMakeFiles/clearprintf.dir/format_print_c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/format_print_c.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/clearprintf/clearprintf/format_print_c.c -o CMakeFiles/clearprintf.dir/format_print_c.c.s
+
+CMakeFiles/clearprintf.dir/format_print_str.c.o: CMakeFiles/clearprintf.dir/flags.make
+CMakeFiles/clearprintf.dir/format_print_str.c.o: ../format_print_str.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/clearprintf.dir/format_print_str.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/clearprintf.dir/format_print_str.c.o   -c /Users/gstarvin/clearprintf/clearprintf/format_print_str.c
+
+CMakeFiles/clearprintf.dir/format_print_str.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/clearprintf.dir/format_print_str.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gstarvin/clearprintf/clearprintf/format_print_str.c > CMakeFiles/clearprintf.dir/format_print_str.c.i
+
+CMakeFiles/clearprintf.dir/format_print_str.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/clearprintf.dir/format_print_str.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gstarvin/clearprintf/clearprintf/format_print_str.c -o CMakeFiles/clearprintf.dir/format_print_str.c.s
+
 # Object files for target clearprintf
 clearprintf_OBJECTS = \
 "CMakeFiles/clearprintf.dir/main.c.o" \
@@ -156,7 +182,9 @@ clearprintf_OBJECTS = \
 "CMakeFiles/clearprintf.dir/libft.c.o" \
 "CMakeFiles/clearprintf.dir/check_format.c.o" \
 "CMakeFiles/clearprintf.dir/format_print_di.c.o" \
-"CMakeFiles/clearprintf.dir/count_length.c.o"
+"CMakeFiles/clearprintf.dir/count_length.c.o" \
+"CMakeFiles/clearprintf.dir/format_print_c.c.o" \
+"CMakeFiles/clearprintf.dir/format_print_str.c.o"
 
 # External object files for target clearprintf
 clearprintf_EXTERNAL_OBJECTS =
@@ -168,9 +196,11 @@ clearprintf: CMakeFiles/clearprintf.dir/libft.c.o
 clearprintf: CMakeFiles/clearprintf.dir/check_format.c.o
 clearprintf: CMakeFiles/clearprintf.dir/format_print_di.c.o
 clearprintf: CMakeFiles/clearprintf.dir/count_length.c.o
+clearprintf: CMakeFiles/clearprintf.dir/format_print_c.c.o
+clearprintf: CMakeFiles/clearprintf.dir/format_print_str.c.o
 clearprintf: CMakeFiles/clearprintf.dir/build.make
 clearprintf: CMakeFiles/clearprintf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable clearprintf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable clearprintf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/clearprintf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
