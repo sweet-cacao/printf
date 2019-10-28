@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/gstarvin/mburnett/gsprintf/format_print_di.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
+/Users/gstarvin/mburnett/gsprintf/ft_printf.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+stdio.h
+-
+stdarg.h
+-
+stdlib.h
+-
+unistd.h
+-
+string.h
+-
+
+/Users/gstarvin/mburnett/gsprintf/libft.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
+/Users/gstarvin/mburnett/gsprintf/main.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
+/Users/gstarvin/mburnett/gsprintf/min_absent.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
+/Users/gstarvin/mburnett/gsprintf/min_present_di.c
+ft_printf.h
+/Users/gstarvin/mburnett/gsprintf/ft_printf.h
+
