@@ -13,11 +13,12 @@ typedef union   u_test
 }               t_test;
 
 int main() {
-    int a = 8;
+    int k = 8;
+    int *a = &k;
     t_test aa;
 
     aa.l = 0x3FEC600000000000;
-    ft_printf("Hello, World%0+10d, %0-10d, %10d, %0-10c!\n", 5, 6, 7, 'a');
+    ft_printf("Hello, World%0+10d, %0-10d, %10d, %0-10c, %010s, %20.15p!\n", 5, 6, 7, 'a', "hello", a);
 
 
 

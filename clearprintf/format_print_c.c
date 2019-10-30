@@ -5,10 +5,12 @@
 //for p if dot is after minus it places zeroes after 0x
 //precision works with strings
 //precision works with pointers in a very strange way, ot doesnt make the pointer fewer, but implements zeroes before 0x if precision is bigger than than the length of pointer
+//esli do tochki to on propuskaet specificatori formata i pechataet cnhjre
+//esli net to vse ok no on ne vidit specificatori formata
 
-void    format_width_c(t_list a)
+void    format_width_c(t_list a, int i)
 {
-    while (a.width > 1)
+    while (a.width > i)
     {
         if (a.zero == 1)
             ft_putchar('0');
@@ -30,15 +32,19 @@ int    format_print_c(char arg, char *str, int start, int end)
         if (a.min == 1)
         {
             ft_putchar(arg);
-            while (a.width > 1)
+            if (a.width > 1)
             {
-                ft_putchar(' ');
-                a.width--;
+                while (a.width > 1)
+                {
+                    ft_putchar(' ');
+                    a.width--;
+                }
             }
         }
         else
         {
-            format_width_c(a);
+            if (a.width > 1)
+                format_width_c(a, 1);
             ft_putchar(arg);
         }
         return (1);

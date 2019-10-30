@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/clearprintf.dir/count_length.c.o"
   "CMakeFiles/clearprintf.dir/format_print_c.c.o"
   "CMakeFiles/clearprintf.dir/format_print_str.c.o"
+  "CMakeFiles/clearprintf.dir/format_print_p.c.o"
+  "CMakeFiles/clearprintf.dir/ft_parse.c.o"
   "clearprintf.pdb"
   "clearprintf"
 )

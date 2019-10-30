@@ -12,8 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="092f68e6-528e-4d8c-b63a-150388493b63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/format_print_c.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/format_print_str.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format_print_f_old.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/format_print_p.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ft_parse.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -23,9 +24,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_c.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_c.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_di.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_di.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_str.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/format_print_str.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/ft_printf.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/ft_printf.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/libft.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/libft.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/main.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/print_pointer.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clearprintf.dir/print_pointer.c.o" afterDir="false" />
@@ -34,10 +36,12 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/clearprintf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clearprintf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/clearprintf.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clearprintf.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format_print_c.c" beforeDir="false" afterPath="$PROJECT_DIR$/format_print_c.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/format_print_di.c" beforeDir="false" afterPath="$PROJECT_DIR$/format_print_di.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format_print_f.c" beforeDir="false" afterPath="$PROJECT_DIR$/format_print_f.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/format_print_str.c" beforeDir="false" afterPath="$PROJECT_DIR$/format_print_str.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf.c" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ft_printf.h" beforeDir="false" afterPath="$PROJECT_DIR$/ft_printf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libft.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/print_pointer.c" beforeDir="false" afterPath="$PROJECT_DIR$/print_pointer.c" afterDir="false" />
     </list>
@@ -61,6 +65,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -97,6 +106,7 @@
       <workItem from="1571906823060" duration="3785000" />
       <workItem from="1571912524005" duration="11173000" />
       <workItem from="1572274147250" duration="9270000" />
+      <workItem from="1572428488124" duration="9655000" />
     </task>
     <servers />
   </component>
@@ -120,13 +130,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/ft_printf.c</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.c</url>
-          <line>19</line>
+          <line>20</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

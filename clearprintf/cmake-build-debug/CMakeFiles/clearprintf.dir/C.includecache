@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/gstarvin/clearprintf/clearprintf/ft_parse.c
+ft_printf.h
+/Users/gstarvin/clearprintf/clearprintf/ft_printf.h
+
 /Users/gstarvin/clearprintf/clearprintf/ft_printf.h
 stdio.h
 -
@@ -17,8 +21,4 @@ unistd.h
 -
 string.h
 -
-
-/Users/gstarvin/clearprintf/clearprintf/main.c
-ft_printf.h
-/Users/gstarvin/clearprintf/clearprintf/ft_printf.h
 

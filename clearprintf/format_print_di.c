@@ -34,6 +34,7 @@ t_list  fill_struct(t_list a, int *i, char *str)
     {
         (*i)++;
         a.precision = atoi(&str[*i]);
+        a.isp = 1;
         while(is_number(str[*i]) || str[*i] == '0')
             (*i)++;
     }
@@ -49,6 +50,7 @@ t_list	zero_struct()
 	a.precision = 0;
 	a.space = 0;
 	a.width = 0;
+	a.isp = 0;
 	return (a);
 }
 void    format_width(t_list a, int len_arg)

@@ -92,7 +92,13 @@
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_di.c">
 			<Option target="clearprintf"/>
 		</Unit>
+		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_p.c">
+			<Option target="clearprintf"/>
+		</Unit>
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/format_print_str.c">
+			<Option target="clearprintf"/>
+		</Unit>
+		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/ft_parse.c">
 			<Option target="clearprintf"/>
 		</Unit>
 		<Unit filename="/Users/gstarvin/clearprintf/clearprintf/ft_printf.c">

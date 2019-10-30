@@ -18,24 +18,11 @@ void	ft_printf(char *format, ...)
             i++;
         }
         i++;
-
+        //here must be checked if the string has the right order or not and what to do, parse, or print arguments
         end = i;
         while ((!(is_diouxX(walk[end]))) && (!(is_csp(walk[end]))) && walk[end] != 'f')
             end++;
-        if (walk[end] == 'd' || walk[end] == 'i')
-            format_print_di((va_arg(ap, int)), walk, i, end);
-        if (walk[end] == 'c')
-            format_print_c((char)(va_arg(ap, unsigned char)), walk, i, end);
- //       if (walk[end] == 'f')
-//        	format_print_f((va_arg(ap, float)), walk, i, end);
-/*
-        else if (*walk == 's')
-            format_print_str((va_arg(ap, char *)), walk, i, end);
-        else if (*walk == 'p')
-            print_pointer(va_arg(ap, const void *));
-        else if (*walk == 'o' || *walk == 'x' || *walk == 'X')
-            format_print_ouxX(va_arg(ap, unsigned int), walk, i, end);
-*/
+        ft_parse(ap, walk, i, end);
         i = end;
         i++;
     }

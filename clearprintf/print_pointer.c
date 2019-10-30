@@ -12,7 +12,7 @@ void    print_pointer(const void *addr)
     unsigned char *p = (unsigned char *)&addr;
     int i = 8;
     int col = 0;
-    write(1, "0x", 2);
+
 
     i--;
     while (i >= 0 && p[i] == 0)

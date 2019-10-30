@@ -1,6 +1,50 @@
 #include "ft_printf.h"
 
-void format_print_f(float f, int precision)
+void    print_second(long long int a)
+{
+    if (a == 0)
+        ft_putnbr(0);
+    while (a > 0)
+    {
+        ft_putnbr(a % 2);
+        a = a / 2;
+    }
+    ft_putchar('\n');
+}
+
+float step(int a, int b)
+{
+    float n;
+    n = 1;
+    int min = 0;
+    if (b < 0)
+    {
+        b *= -1;
+        min = 1;
+    }
+    while (b > 0)
+    {
+        n = n * a;
+        b--;
+    }
+    if (min == 1)
+    {
+        n = 1 / n;
+    }
+    return (n);
+}
+
+void double_print(double d)
+{
+    t_double aDouble;
+
+    aDouble.a = d;
+    int poryadok = aDouble.k.exponent - 1023;
+    double chislo = (aDouble.k.mantissa / (step(2, 52))) + 1;
+    printf("f = %.10f\n", chislo);
+}
+
+void    print_float(double f, int precision)
 {
 	signed long int first;
 	signed long int second;
@@ -10,38 +54,9 @@ void format_print_f(float f, int precision)
 		ft_putchar('-');
 		f = f * (-1);
 	}
-	first = (signed long int)f;
-	int len_arg = count_length(first);
-
-	ft_putnbr(first);
-	ft_putchar('.');
-	f -= (float)first;
-/*
-	while (precision > 9)
-	{
-		f = f * 1000000000;
-		first = (signed long int)f;
-		len_arg = count_length(first);
-		ft_putnbr(first);
-		f -= first;
-		precision -= 9 ;
-	}
-	*/
-	while (precision > 0)
-	{
-		f = f * 10;
-		first = (signed long int)f;
-		ft_putnbr(first);
-		f -= first;
-		precision -= 1;
-	}
-
 }
 
-int main()
+void    format_print_f(double f, char *str, int start, int end)
 {
-	float a = 945678935245678987654.987;
-	format_print_f(a, 10);
-	printf("\nf = %.10f\n,", a);
-	return (0);
+    double_print(f);
 }

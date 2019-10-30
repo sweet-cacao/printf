@@ -13,8 +13,14 @@ CMakeFiles/clearprintf.dir/format_print_c.c.o: ../ft_printf.h
 CMakeFiles/clearprintf.dir/format_print_di.c.o: ../format_print_di.c
 CMakeFiles/clearprintf.dir/format_print_di.c.o: ../ft_printf.h
 
+CMakeFiles/clearprintf.dir/format_print_p.c.o: ../format_print_p.c
+CMakeFiles/clearprintf.dir/format_print_p.c.o: ../ft_printf.h
+
 CMakeFiles/clearprintf.dir/format_print_str.c.o: ../format_print_str.c
 CMakeFiles/clearprintf.dir/format_print_str.c.o: ../ft_printf.h
+
+CMakeFiles/clearprintf.dir/ft_parse.c.o: ../ft_parse.c
+CMakeFiles/clearprintf.dir/ft_parse.c.o: ../ft_printf.h
 
 CMakeFiles/clearprintf.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/clearprintf.dir/ft_printf.c.o: ../ft_printf.h
