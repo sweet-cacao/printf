@@ -1,3 +1,0 @@
-/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gstarvin/clearprintf/clearprintf/cmake-build-debug/CMakeFiles/clearprintf.dir
